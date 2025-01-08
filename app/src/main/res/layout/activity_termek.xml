@@ -5,36 +5,43 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <!-- Név EditText -->
     <EditText
-        android:id="@+id/etNev"
+        android:id="@+id/nevEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Termék neve" />
+        android:hint="Név" />
 
+    <!-- Egységár EditText -->
     <EditText
-        android:id="@+id/etEgysegar"
+        android:id="@+id/egysegArEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Egységár"
-        android:inputType="number" />
+        android:hint="Egységár" />
 
+    <!-- Mennyiség EditText -->
     <EditText
-        android:id="@+id/etMennyiseg"
+        android:id="@+id/mennyisegEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Mennyiség"
-        android:inputType="numberDecimal" />
+        android:hint="Mennyiség" />
 
-    <EditText
-        android:id="@+id/etMertekegyseg"
+    <!-- Három gomb -->
+    <Button
+        android:id="@+id/modositasButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Mértékegység" />
+        android:text="Módosítás" />
 
     <Button
-        android:id="@+id/btnHozzaadas"
+        android:id="@+id/torlesButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hozzáadás" />
+        android:text="Törlés" />
 
+    <Button
+        android:id="@+id/megseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mégse" />
 </LinearLayout>
